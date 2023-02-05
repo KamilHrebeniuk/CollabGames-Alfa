@@ -1,0 +1,187 @@
+.person_page-main-container{
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -485px;
+    width: 970px;
+    float: left;
+}
+
+.person_page-container-left{
+    float: left;
+}
+
+.person_page-container-right{
+    float: left;
+}
+
+.person_page-description{
+    padding-right: 20px;
+}
+
+.person_page-finished-projects{
+    margin-top: 40px;
+    padding-right: 20px;
+}
+
+.person_page-current-projects{
+    margin-top: 40px;
+    padding-right: 20px;
+}
+
+.person_page-team{
+    margin-top: 40px;
+    padding-right: 20px;
+}
+
+.person_page-offers{
+    margin-top: 40px;
+    padding-right: 20px;
+}
+
+.person_page-comments{
+    margin-top: 40px;
+    height: 500px;
+    padding-right: 20px;
+    border: solid 1px #bb1a4d;
+}
+
+.person_page-info{
+
+}
+
+.person_page-specializations{
+    margin-top: 40px;
+}
+
+.person_page-references{
+    margin-top: 40px;
+}
+
+.person_page-ads{
+    margin-top: 40px;
+//    border: solid 1px #512cbb;
+}
+
+.person_page-description-container{
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #454545;
+    margin-top: 6px;
+}
+
+.person_page-description-image{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    float: left;
+}
+
+.person_page-finished-projects-height{
+    max-height: 362px;
+}
+
+.person_page-current-projects-height{
+    max-height: 362px;
+}
+
+.person_page-offers-height{
+    max-height: 300px;
+}
+
+.person_page-team-container{
+    padding: 10px 0px 0px 21px;
+    background-color: #454545;
+}
+
+.person_page-team-member-image{
+    width: 85px;
+    height: 85px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    border-radius: 50%;
+}
+
+.person_page-info-container{
+    padding: 10px 10px 0px 10px;
+    background-color: #454545;
+}
+
+.person_page-status{
+    display: block;
+    margin: 0px 0px 10px 0px;
+    background-color: #1c8921;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    line-height: 24px;
+    height: 24px;
+}
+
+.person_page-facebook{
+    margin: 0px 0px 10px 0px;
+    float: left;
+    padding: 3px 12px;
+    font-size: 12px;
+    color: white;
+    background-color: #4852ed;
+    border: solid 2px #0f0ecd;
+    border-radius: 5px;
+}
+
+.person_page-distinctions-container{
+    padding: 0px 10px 0px 10px;
+}
+
+.person_page-distinctions{
+    margin: 0px 0px 10px 0px;
+    float: left;
+    padding: 3px 12px;
+    font-size: 12px;
+    color: white;
+    background-color: #ed4000;
+    border: solid 2px #cd3900;
+    border-radius: 5px;
+}
+
+.person_page-webpage{
+    margin: 0px 0px 10px 0px;
+    float: left;
+    padding: 3px 12px;
+    font-size: 12px;
+    color: white;
+    background-color: #ed4000;
+    border: solid 2px #cd3900;
+    border-radius: 5px;
+}
+
+.person_page-contact{
+    margin: 0px 0px 10px 0px;
+    float: left;
+    padding: 3px 12px;
+    font-size: 12px;
+    color: white;
+    background-color: #8ded95;
+    border: solid 2px #39cd52;
+    border-radius: 5px;
+}
+
+.person_page-specializations-container{
+    padding: 10px 0px 10px 10px;
+    background-color: #454545;
+}
+
+.person_page-specializations-image{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    float: left;
+}
+
+.person_page-references-height{
+    max-height: 300px;
+}

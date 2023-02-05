@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #373737;
+    font-family: MuseoSans-500;
+    margin: 0px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-style: normal;
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+[class^="col-"] {
+    width: 100%;
+    float: left;
+}
+
+@media only screen and (min-width: 720px) {
+    .col-1 {width: 10%;}
+    .col-2 {width: 20%;}
+    .col-3 {width: 30%;}
+    .col-4 {width: 40%;}
+    .col-5 {width: 50%;}
+    .col-6 {width: 60%;}
+    .col-7 {width: 70%;}
+    .col-8 {width: 80%;}
+    .col-9 {width: 90%;}
+    .col-10 {width: 100%;}
+    .col-33 {width: 33.33%;}
+}
+
+.index-left-menu-container{
+
+}
+
+.index-main-container{
+    top: 60px;
+    left: 50%;
+    position: relative;
+    width: 970px;
+    margin-left: -485px;
+    float: left;
+//    background-color: #454545;
+}
+
+.index-slider-container{
+    height: 360px;
+//    border: solid 1px #8b1bbb;
+}
+
+.index-explore-container{
+    margin-top: 40px;
+//    border: solid 1px #008900;
+}
+
+.index-trending-container{
+    margin-top: 40px;
+//    border: solid 1px #0099FF;
+}
+
+.index-offers-container{
+    height: 450px;
+    margin-top: 40px;
+    padding-right: 16px;
+//    border: solid 1px #bb1a4d;
+}
+
+.index-premiers-container{
+    height: 450px;
+    margin-top: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+//    border: solid 1px #9fbb00;
+}
+
+.index-about-container{
+    height: 450px;
+    margin-top: 40px;
+    padding-left: 16px;
+//    border: solid 1px #07bb33;
+}
+
+.index-pins-container{
+    margin-top: 40px;
+//    border: solid 1px #bb2d11;
+}
+
+.index-tags-container{
+    margin-top: 40px;
+//    border: solid 1px #bb1a87;
+}
+
+.index-container-helper{
+    height: 100%;
+    background-color: #454545;
+}
+
+.index-category-title{
+    margin-bottom: 6px;
+    font-size: 22px;
+    line-height: 24px;
+    color: white;
+}
+
+.index-slider-main-image-container{
+    height: 100%;
+    padding-right: 20px;
+}
+
+.index-slider-main-image{
+
+}
+
+.index-slider-miniatures-container{
+    height: 100%;
+    padding: 10px;
+    background-color: #454545;
+}
+
+.index-slider-title{
+    font-size: 22px;
+    line-height: 24px;
+    color: white;
+}
+
+.index-slider-description{
+    height: 190px;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 16px;
+    color: white;
+    overflow: hidden;
+}
+
+.index-slider-tags-container{
+    margin-top: 20px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.index-slider-tag{
+    margin: 2px;
+    float: left;
+    padding: 3px 12px;
+    font-size: 12px;
+    color: white;
+//    background-color: #174e7b;
+//    border: solid 2px #10324e;
+    background-color: #ed4000;
+    border: solid 2px #cd3900;
+    border-radius: 5px;
+}
+
+.index-explore-elements-container{
+    left: 50%;
+    position: relative;
+    margin-left: -460px;
+    width: 920px;
+    float: left;
+}
+
+.index-explore-element{
+    float: left;
+    width: 210px;
+    margin: 20px 10px;
+    font-size: 18px;
+    line-height: 64px;
+    text-align: center;
+    background-color: #ed4000;
+    border: solid 2px #cd3900;
+    color: white;
+}
+
+.index-trending-elements-container{
+    margin: -10px;
+    float: left;
+}
+
+.index-trending-image-container{
+    width: 310px;
+    height: 183px;
+    margin: 10px;
+    float: left;
+    padding: 10px;
+    background-color: #454545;
+}
+
+.index-table-container{
+    height: 400px;
+    padding: 10px;
+    background-color: #454545;
+}
+
+.index-table-inside-container{
+    height: 380px;
+    padding-right: 10px;
+    overflow-y: auto;
+}
+
+.index-table-element{
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #5c5c5c;
+}
+
+.index-pins-elements-container{
+    padding: 15px 0px 15px 50px;
+    background-color: #454545;
+}
+
+.index-pins-pin{
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+    float: left;
+}
+
+.index-tags-elements-container{
+    padding: 5px 0px;
+    text-align: center;
+    background-color: #454545;
+}
+
+.index-tags-elements-group{
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.index-tags-tag{
+    float: left;
+    padding: 5px 17px;
+    font-size: 14px;
+    color: white;
+    background-color: #ed4000;
+    border: solid 2px #cd3900;
+    border-radius: 5px;
+}
+
+.index-tags-tag-margin-gr1{
+    margin-right: 40px;
+}
+
+.index-tags-tag-margin-gr2{
+    margin-right: 20px;
+}

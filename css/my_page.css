@@ -1,0 +1,136 @@
+#my_page-tables-container{
+    margin: -10px;
+    float: left;
+}
+
+.my_page-table-container {
+    width: 310px;
+    margin: 0 10px 10px 10px;
+    float: left;
+    background-color: #454545;
+}
+
+.my_page-table-title-margin{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.my_page-table-height{
+    height: 362px;
+}
+
+.my_page-table-post-height{
+    height: 80px;
+}
+
+.my_page-table-create-button-container{
+    float: left;
+    width: 310px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 34px;
+    text-align: center;
+    background-color: #ed4000;
+    border: solid 2px #cd3900;
+    cursor: pointer;
+    color: white;
+    font-family: MuseoSans-500;
+}
+
+#my_page-info-main-container{
+    margin-top: 40px;
+}
+
+#my_page-info-left-container{
+    padding: 10px;
+    height: 520px;
+    width: 640px;
+    background-color: #454545;
+}
+
+#my_page-info-right-container{
+    height: 520px;
+    width: 310px;
+    float: right;
+    padding: 10px;
+    background-color: #454545;
+}
+
+.my_page-info-title{
+    float: left;
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+#my_page-info-image-container{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+#my_page-info-image{
+    height: 100%;
+}
+
+#my_page-info-name-url-style{
+    width: 460px;
+    background-color: #5c5c5c;
+    margin-top: 32px;
+    margin-left: -26px;
+    padding: 10px;
+}
+
+#my_page-info-name-container{
+    float: left;
+    line-height: 22px;
+}
+
+#my_page-info-url-container{
+    float: left;
+    margin-top: 22px;
+    line-height: 22px;
+}
+
+.my_page-info-name-url-content{
+    width: 440px;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#my_page-info-long-description-container{
+    float: left;
+    margin-top: 20px;
+}
+
+#my_page-info-long-description{
+    width: 620px;
+    height: 260px;
+    float: left;
+    color: white;
+    resize: none;
+    outline: none;
+    line-height: 16px;
+    font-size: 12px;
+    background: #5c5c5c;
+    border: none;
+}
+
+.my_page-info-external-container{
+    width: 290px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.my_page-info-external-content{
+    width: 290px;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

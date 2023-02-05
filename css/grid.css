@@ -1,0 +1,116 @@
+/*UNIWERSALNE*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #EEEEEE;
+	font-family: MuseoSans-500;
+	margin: 0px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	font-style: normal;
+	margin: 0px;
+}
+
+h3{
+	font-size: 14px;
+	margin: 7px 2px;
+	color: #222;
+}
+
+h4{
+	font-size: 12px;
+	margin: 6px 2px;
+	color: #777;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+[class^="col-"] {
+	width: 100%;
+	float: left;
+}
+
+@media only screen and (min-width: 720px) {
+	.col-1 {width: 10%;}
+	.col-2 {width: 20%;}
+	.col-3 {width: 30%;}
+	.col-4 {width: 40%;}
+	.col-5 {width: 50%;}
+	.col-6 {width: 60%;}
+	.col-7 {width: 70%;}
+	.col-8 {width: 80%;}
+	.col-9 {width: 90%;}
+	.col-10 {width: 100%;}
+}
+
+.header{
+	height: 10px;
+}
+
+#banner{
+	height: 300px
+}
+
+/*GŁÓWNA*/
+
+.container{
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	background-color: #FFFFFF;
+	height: 1200px;
+	border: solid 1px #DDDDDD;
+}
+
+.slider_element{
+	background-color: #FFFFFF;
+	padding: 6px;
+	/*border: 1px solid #BBBBBB;
+      border-radius: 10px;*/
+	margin-right: 5px;
+	margin-left: 5px;
+	height: 176px;
+	box-shadow: 2px 3px 10px #BBBBBB;
+}
+
+.text_and_slider{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.text_container{
+	width: 100%;
+	border-top: solid 1px #ddd;
+	padding: 20px 5px;
+	margin-top: 50px;
+	float: left;
+}
+
+.text_to_right{
+	font-size: 14px;
+	text-align: right;
+	font-weight: unset;
+	color: #777777;
+}
+
+.text_to_left{
+	font-size: 20px;
+	font-weight: unset;
+	color: #777777;
+}
+
+.slider_image{
+	height: 120px;
+}
+
+/*LISTA PROJEKTÓW*/
+

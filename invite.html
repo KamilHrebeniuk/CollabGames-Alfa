@@ -1,0 +1,23 @@
+<div id="invite-container">
+    <script src="js/invite.js"></script>
+    <div class="col-9">
+        <h4 id="invite-header">ZAPROŚ WSPÓŁTWÓRCÓW</h4>
+    </div>
+    <div class="col-1">
+        <div id="invite-close" onclick="document.getElementById('invite-container').style.display='none'">×</div>
+    </div>
+    <h5 class="invite-name-header"> WYBIERZ KOGO ZAPRASZASZ </h5>
+    <div class="col-10">
+        <label class="invite-option">Osoba
+            <input type="radio" name="radio" checked="checked">
+        </label>
+        <label class="invite-option">Zespół
+            <input type="radio" name="radio">
+        </label>
+        <h5 class="invite-name-header"> NICK / E-MAIL </h5>
+        <input id="invite-name" type="text" placeholder="Nick lub E-mial" name="nick" onchange="invite(this.value)">
+        <div id="invite-found-container">
+            NIKT
+        </div>
+    </div>
+</div>

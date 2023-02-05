@@ -1,0 +1,142 @@
+#login-container{
+    z-index: 1000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    height: 320px;
+    padding: 50px 30px 0px;
+    margin-top: -160px;
+    margin-left: -160px;
+    background-color: #454545;
+    border: solid 1px #373737;
+    display: none;
+}
+
+#register-container{
+    z-index: 1000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    height: 500px;
+    padding: 50px 30px 0px;
+    margin-top: -250px;
+    margin-left: -160px;
+    background-color: #454545;
+    border: solid 1px #373737;
+    display: none;
+}
+
+.register-header{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.register-close{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.register-value-header{
+    margin: 20px 0 5px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.register-value{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    border: solid 1px #DDDDDD;
+    background-color: #efefef;
+}
+
+#register-rules{
+
+}
+
+#register-rules-desc{
+
+}
+
+.register-submit{
+    margin-top: 65px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ed4000;
+    color: #fff;
+}
+
+.register-checkbox-container {
+    display: block;
+    margin-top: 70px;
+    position: relative;
+    text-align: center;
+    margin-bottom: -45px;
+    cursor: pointer;
+    font-size: 12px;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.register-checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.register-checkbox-checkmark {
+    position: absolute;
+    top: -5px;
+    left: 40px;
+    height: 22px;
+    width: 22px;
+    border-radius: 5px;
+    background-color: #efefef;
+}
+
+/* On mouse-over, add a grey background color */
+.register-checkbox-container:hover input ~ .register-checkbox-checkmark {
+    background-color: #DDDDDD;
+}
+
+/* When the checkbox is checked, add a blue background */
+.register-checkbox-container input:checked ~ .register-checkbox-checkmark {
+    background-color: #222222;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.register-checkbox-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.register-checkbox-container input:checked ~ .register-checkbox-checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.register-checkbox-container .register-checkbox-checkmark:after {
+    left: 8px;
+    top: 4px;
+    width: 4px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}

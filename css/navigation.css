@@ -1,0 +1,231 @@
+nav{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	background-color: #141414;
+	height: 45px;
+//	box-shadow: 0px 3px 10px #BBBBBB;
+	z-index: 100;
+}
+
+.navigation-container{
+	width: 970px;
+	margin: auto;
+}
+
+.navigation-logo-container{
+	float: left;
+	width: 18%;
+}
+
+.navigation-search-box-container{
+	float: left;
+	width: 45%;
+}
+
+.navigation-categories-container{
+	width: 14%;
+	float: left;
+}
+
+.navigation-login-container{
+	width: 12%;
+	float: left;
+}
+
+.navigation-register-container{
+	width: 11%;
+	float: left;
+}
+
+.navigation-account-container{
+	max-width: 220px;
+	margin-top: 8px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	background-color: #ed4000;
+	border-radius: 15px;
+	float: right;
+}
+
+#collabgames-logo{
+	margin-top: 9px;
+	width: 140px;
+	height: 24px;
+}
+
+#search-input-style{
+	margin-top: 10px;
+	width: 220px;
+	height: 24px;
+	padding-left: 10px;
+	color: #747474;
+	background-color: #282828;
+	border: none;
+	float: left;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+
+#search-options-style{
+	margin-top: 10px;
+	width: 125px;
+	height: 24px;
+	padding: 3px;
+	color: #747474;
+	background-color: #282828;
+	border: none;
+	border-left: solid 1px #373737;
+	float: left;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+#search-button-style{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 24px;
+	height: 24px;
+//	color: #ed4000;
+	border: none;
+	cursor: pointer;
+	float: left;
+	border-radius: 50%;
+	background: url(../images/search.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+#categories-icon{
+	margin-top: 12px;
+	width: 20px;
+	height: 20px;
+	color: black;
+	float: left;
+}
+
+#categories{
+	margin-top: 8px;
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	float: right;
+	position: relative;
+	display: inline-block;
+}
+
+#login{
+	display: block;
+	margin-top: 8px;
+	width: 100px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	float: right;
+}
+
+#register{
+	display: block;
+	margin-top: 8px;
+	width: 100px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	background-color: #ed4000;
+//	border: 1px solid black;
+	border-radius: 15px;
+	float: right;
+}
+
+#navigation-account-image{
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	float: right;
+}
+
+#navigation-account-name{
+	margin: 0 18px 0 12px;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	float: right;
+}
+
+.categories-button {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	float: right;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.categories {
+	position: relative;
+	display: inline-block;
+}
+
+.categories-miniature{
+	margin: 8px 10px;
+	width: 24px;
+	height: 24px;
+	background-color: #ffffff;
+	float: left;
+}
+
+.categories-name{
+	line-height: 40px;
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	float: left;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.categories-content {
+	display: none;
+	position: absolute;
+	margin-top: 44px;
+	background-color: #454545;
+	width: 180px;
+	box-shadow: 2px 3px 10px #BBBBBB;
+}
+
+/* Links inside the dropdown */
+.categories-content a {
+	display: block;
+	height: 40px;
+	border-top: 1px solid white;
+}
+
+/* Change color of dropdown links on hover */
+.categories-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.categories:hover .categories-content {
+	display: block;
+}

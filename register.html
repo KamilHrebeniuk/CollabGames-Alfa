@@ -1,0 +1,52 @@
+<div id="login-container">
+    <div class="col-9">
+        <h4 class="register-header">LOGOWANIE</h4>
+    </div>
+    <div class="col-1">
+        <div class="register-close" onclick="document.getElementById('login-container').style.display='none'">×</div>
+    </div>
+    <form method="post" action="scripts/login.php">
+        <div class="col-10">
+            <h5 class="register-value-header"> NICK / E-MAIL </h5>
+            <input class="register-value" type="text" placeholder="Nick lub E-mial" name="login">
+
+            <h5 class="register-value-header"> HASŁO </h5>
+            <input class="register-value" type="text" placeholder="Hasło" name="password">
+
+            <input class="register-submit" type="submit" value="Zaloguj">
+        </div>
+    </form>
+</div>
+
+<div id="register-container">
+    <div class="col-9">
+        <h4 class="register-header">REJESTRACJA</h4>
+    </div>
+    <div class="col-1">
+        <div class="register-close" onclick="document.getElementById('register-container').style.display='none'">×</div>
+    </div>
+    <form method="post" action="scripts/register.php">
+        <div class="col-10">
+            <h5 class="register-value-header"> WYŚWIETLANY NICK </h5>
+            <input class="register-value" type="text" placeholder="Nick" name="name">
+
+            <h5 class="register-value-header"> E-MAIL </h5>
+            <input class="register-value" type="text" placeholder="E-mail" name="email">
+
+            <h5 class="register-value-header"> HASŁO </h5>
+            <input class="register-value" type="text" placeholder="Password" name="password">
+
+            <h5 class="register-value-header">POWTÓRZ HASŁO </h5>
+            <input class="register-value" type="text" placeholder="Repeat password" name="password2">
+
+        <!--<input id="register-rules" type="checkbox" name="vehicle" value="YES"><h6 id="register-rules-desc">Akceptuję regulamin</h6>-->
+
+            <label class="register-checkbox-container">Akceptuję regulamin
+                <input type="checkbox">
+                <span class="register-checkbox-checkmark"></span>
+            </label>
+
+            <input class="register-submit" type="submit" value="Dołącz">
+        </div>
+    </form>
+</div>

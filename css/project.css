@@ -1,0 +1,226 @@
+/*.project_page-background-container{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -99;
+    background-color: rgba(45, 255, 50, 0.2);
+}*/
+
+.project_page-background-image{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -90;
+    opacity: 0.05;
+}
+
+.project_page-gradient{
+    top: 85%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #373737);
+}
+/*
+.project_page-background-bottom-gradient{
+    top: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -99;
+    background: linear-gradient(to bottom, rgba(0,87,0,0) 0%,rgba(255,255,255,1) 100%);
+}*/
+
+.project_page-main-container{
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -485px;
+    width: 970px;
+    float: left;
+}
+
+.project_page-container-left{
+    float: left;
+}
+
+.project_page-container-right{
+    float: left;
+}
+
+.project_page-slider{
+    padding-right: 20px;
+//    border: solid 1px #008900;
+}
+
+.project_page-team{
+    margin-top: 40px;
+    padding-right: 20px;
+//    border: solid 1px #FF0C64;
+}
+
+.table{
+    margin-top: 40px;
+    max-height: 400px;
+    padding-right: 20px;
+//    border: solid 1px #0099FF;
+}
+
+.project_page-description{
+    margin-top: 40px;
+    padding-right: 20px;
+//    border: solid 1px #8b1bbb;
+}
+
+.project_page-recommended{
+    margin-top: 40px;
+    padding-right: 20px;
+//    border: solid 1px #b5bb18;
+}
+
+.project_page-comments{
+    margin-top: 40px;
+    height: 500px;
+    padding-right: 20px;
+    border: solid 1px #bb1a4d;
+}
+
+.project_page-info{
+    height: 398px;
+    padding: 10px;
+    background-color: #454545;
+}
+
+.project_page-offers{
+    margin-top: 40px;
+    max-height: 300px;
+//    border: solid 1px #0099FF;
+}
+
+.project_page-ads{
+    margin-top: 40px;
+    height: 1000px;
+//    border: solid 1px #008900;
+}
+
+.project_page-container-helper{
+    background-color: #454545;
+}
+
+.project_page-slider-main-image{
+    height: 352px;
+}
+
+.project_page-status{
+    display: block;
+    padding: 4px;
+    margin: 0px 20px 6px -20px;
+//    box-shadow: 2px 3px 10px #DDDDDD;
+    text-align: center;
+    font-size: 18px;
+    float: right;
+    height: 32px;
+}
+
+.project_page-slider-shadow-box{
+    float: left;
+//    box-shadow: 2px 3px 10px #BBBBBB;
+}
+
+.project_page-slider-miniatures-container{
+    height: 82px;
+    font-size: 0px;
+    position: relative;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.project_page-slider-miniatures-image{
+    height: 70px;
+    width: 20%;
+    display: inline-block;
+}
+
+#project_page-start-date{
+    text-align: left;
+    font-size: 15px;
+}
+
+#project_page-end-date{
+    text-align: right;
+    font-size: 15px;
+}
+
+.project_page-progress-bar{
+    height: 14px;
+}
+
+.project_page-project-main-image{
+    margin: 6px 0px;
+    height: 177px;
+}
+
+.project_page-project-short-desc{
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.project_page-team-miniature-container{
+    padding: 10px;
+    background-color: #454545;
+}
+
+.project_page-team-miniature-inside-container{
+    height: 88px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.project_page-team-miniature-image{
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    /* border: solid 1px #BBBBBB; */
+    border-radius: 50%;
+    /* box-shadow: 2px 3px 5px #BBBBBB; */
+}
+
+.project_page-changelog-height{
+    max-height: 350px;
+}
+
+.project_page-description-container{
+    padding: 10px;
+    line-height: 16px;
+    font-size: 12px;
+    background-color: #454545;
+}
+
+.project_page-recommended-miniature-container{
+    padding: 10px;
+    background-color: #454545;
+}
+
+.project_page-recommended-miniature-inside-container{
+    height: 90px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.project_page-recommended-miniature-image{
+    margin-right: 10px;
+    width: 128px;
+    height: 72px;
+    display: inline-block;
+}
+
+.project_page-offers-height{
+    max-height: 200px;
+}

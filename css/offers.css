@@ -1,0 +1,29 @@
+.offers_page-main-container{
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -485px;
+    width: 970px;
+    float: left;
+}
+
+.offers_page-search-container{
+    height: 140px;
+    margin-bottom: 40px;
+    padding: 10px;
+    background-color: #454545;
+}
+
+.offers_page-main-offers-container{
+    float: left;
+    margin: -10px;
+}
+
+.offers_page-offer-container{
+    width: 310px;
+    height: 180px;
+    margin: 10px;
+    float: left;
+    padding: 10px;
+    background-color: #454545;
+}
